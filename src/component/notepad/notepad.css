@@ -1,0 +1,65 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .add-item {
+    width: 70px;
+    height: 150px;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .some-test {
+    display: flex;
+  }
+  
+  .display-notes {
+    display: inline-flex;
+    margin-top: 10px;
+  }
+  
+  .notes-item {
+    margin: 10px;
+    width: 10em;
+    height: 10em;
+    padding: 10px;
+    overflow: scroll;
+    white-space: pre-wrap;
+    text-align: left;
+    box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+    position: relative;
+  }
+  
+  .notes-item:nth-of-type(odd) {
+    background: #ffc;
+  }
+  
+  .notes-item:nth-of-type(even) {
+    background: rgb(255, 250, 204);
+  }
+  
+  .note-head {
+    display: flex;
+  }
+  
+  .delete-note {
+    background: none;
+    border: none;
+    right: 0;
+    position: absolute;
+  }
+  
+  textarea#notes-value {
+    background: rgb(204, 247, 255);
+    box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    outline: none;
+  }
+
+  .save-button {
+    margin-left: 10px;
+  }
